@@ -1,38 +1,98 @@
-.App {
+.app {
+  padding: 40px;
+  height: 400px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding-top: 200px;
+  font-size: 55px;
+  background-color: gainsboro;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -221px;
+  color: rgb(29, 218, 73);
+}
+
+button {
+  max-width: 950px;
+  min-height: 40px;
+  border-radius: 15px;
+  background-color: black;
+  padding: 10px 53px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  box-shadow: 0 10px 15px rgb(20, 217, 39);
+  transition: transform 0.15s;
+}
+
+button:hover {
+  background-color: rgb(252, 54, 120) ß;
+  transform: scale(1.07);
+  font-weight: bold;
+}
+
+.buttonTop {
+  margin: 100px 0px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table,
+th,
+td {
+  border: 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th {
+  font-size: 24px;
+  padding: 10px;
+  font-weight: bolder;
+  background-color: gainsboro;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+tr {
+  font-size: 26px;
+  font-weight: bolder;
+  background-color: gainsboro;
+}
+.trophyStyle {
+  font-size: 72px;
+}
+
+.contact-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-image {
+  width: 200px;
+  margin: 25px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-info div {
+  margin-bottom: 5px;
 }
